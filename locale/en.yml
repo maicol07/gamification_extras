@@ -1,0 +1,9 @@
+gamification-extras:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n.html#appendix-a-standard-key-format
+  admin:
+    page:
+      ranks:
+        groups: Input the required number of upvotes, the name of the rank, the hex color of the rank and eventually the Flarum group to associate with the user who reach the rank
+
+  forum:

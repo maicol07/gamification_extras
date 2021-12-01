@@ -1,0 +1,44 @@
+{
+    "name": "maicol07/flarum-gamification-extras",
+    "description": "Flarum Gamification Extras",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0",
+        "fof/gamification": "^1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "authors": [
+        {
+            "name": "maicol07",
+            "email": "webmaster@maicol07.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maicol07\\GamificationExtras\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Maicol07\\GamificationExtras\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Gamification Extras",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-thumbs-up",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    }
+}
