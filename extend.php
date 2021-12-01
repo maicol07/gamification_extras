@@ -26,6 +26,8 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/less/admin.less'),
     new Extend\Locales(__DIR__.'/locale'),
+
+    /* ***** Group linking ***** */
     (new Extend\ApiSerializer(RankSerializer::class))
         ->attribute('groups', function ($serializer, $model) {
             return $model->groups;
