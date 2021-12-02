@@ -1,6 +1,6 @@
 import { parse as cssWhat, Selector } from 'css-what';
 import type Mithril from 'mithril';
-import app from '../../../vendor/flarum/core/js/dist-typings/forum/app';
+import app from 'flarum/forum/app';
 
 type VdomChildren = Mithril.Vnode<Record<string, unknown>> | Mithril.Vnode<Record<string, unknown>>[];
 
