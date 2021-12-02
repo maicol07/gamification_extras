@@ -4,6 +4,7 @@
   "private": true,
   "prettier": "@flarum/prettier-config",
   "dependencies": {
+    "css-what": "^5.1.0",
     "flarum-webpack-config": "^1.0.0",
     "flarum-tsconfig": "^1.0.0",
     "@flarum/prettier-config": "^1.0.0",
@@ -11,6 +12,7 @@
     "webpack-cli": "^3.0.7"
   },
   "devDependencies": {
+    "@types/mithril": "^2.0.8",
     "prettier": "^2.3.0"
   },
   "scripts": {
